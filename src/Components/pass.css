@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(17, 102, 212, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #311b92 ;
+  } */
+  h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+  
+  h1:hover {
+    color: #ff6347; /* Change text color to tomato */
+    text-shadow: 2px 2px 8px rgba(255, 99, 71, 0.6); /* Add glowing effect */
+  }
+  
+  .generator-settings label {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  input[type='number'] {
+    margin-left: 10px;
+    padding: 5px;
+    width: 60px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .password-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  .password-display input {
+    border: none;
+    font-size: 16px;
+    flex: 1;
+    padding: 5px;
+    background: transparent;
+  }
+  
+  .password-display button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .password-display button:hover {
+    background: #45a049;
+  }
+  
+  .copy-success {
+    color: #28a745;
+    font-size: 14px;
+  }
+  
+  .generate-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .generate-button:hover {
+    background: #0056b3;
+  }
+  
